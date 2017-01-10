@@ -30,3 +30,9 @@ admin-dev/import/
 download/
 /img/*
 upload/
+
+# Custom Additions for the Code-Challenge
+!modules/code-challenge-module
+modules/*
+themes/*
+override/*
