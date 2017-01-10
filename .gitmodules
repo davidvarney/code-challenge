@@ -1,6 +1,3 @@
-[submodule "modules/code-challenge-module"]
-	path = modules/code-challenge-module
-	url = git@github.com:davidvarney/code-challenge-module.git
 [submodule "modules/codechallengemodule"]
 	path = modules/codechallengemodule
 	url = git@github.com:davidvarney/code-challenge-module.git
