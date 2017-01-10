@@ -32,7 +32,7 @@ download/
 upload/
 
 # Custom Additions for the Code-Challenge
-!modules/code-challenge-module
+!modules/codechallengemodule
 modules/*
 themes/*
 override/*
