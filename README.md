@@ -33,7 +33,7 @@ Production Server Setup
 ----------------------------------
 The production server that I deployed this to is a server running over at Digital Ocean. I went ahead and created one of the smaller instances with an Ubuntu 16.04 and Docker image. I went ahead and pointed my domain (davidvrney.com) to the production server so I wouldn't have to remember yet another IP address. Long story short, I installed this exactly how I described above in the "Steps for Setup/Install" section.
 
-Problems/Issues Faced
+Final Thoughts
 --------------------------------
 My current dev environment includes a Vagrant/VirtualBox/Homestead setup so I'm not use to working with Docker. I had a bit of a hill to climb on the first day of this code challenge with getting up to speed with what Docker is and how to use it. The biggest weird issue I ran into was declaring the volume mapping within the `docker run` command. I was initially putting it at the end like so:
 `run -it --name prestashop-container-name -p 8080:80 -p 3306:3306 -d prestashop/prestashop:1.6.1.9 -v ~/Desktop/Development/code-challenge/modules:/var/www/html/modules` and Docker wouldn't even start the container but for some weird reason Kitematic would. I went on Stack Overflow and asked the community there for a little help and between the questions I received and me trying out different solutions/debugging I figured out that I needed to move the volume mapping somewhere more towards the beginning of the command. Overall I feel like Docker is a really useful tool and I'm glad I now have another tool to use in the world of web development.
