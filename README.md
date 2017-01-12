@@ -31,7 +31,7 @@ Steps for Setup/Install
 
 Production Server Setup
 ----------------------------------
-The production server that I deployed this to is a server running over at Digital Ocean. I went ahead and created one of the smaller instances with an Ubuntu 16.04 and Docker image. Long story short, I installed this exactly how I described above in the "Steps for Setup/Install" section.
+The production server that I deployed this to is a server running over at Digital Ocean. I went ahead and created one of the smaller instances with an Ubuntu 16.04 and Docker image. I went ahead and pointed my domain (davidvrney.com) to the production server so I wouldn't have to remember yet another IP address. Long story short, I installed this exactly how I described above in the "Steps for Setup/Install" section.
 
 Problems/Issues Faced
 --------------------------------
